@@ -1,5 +1,5 @@
 resource "aws_elb" "four" {
-name = "terraform_elb"
+name = "terraform-elb"
 availability_zones = ["us-west-2a","us-west-2b"]
 listener {
 instance_port = 80
